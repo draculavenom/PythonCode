@@ -1,5 +1,7 @@
 from ReadFiles import ReadFiles
 
+"""
+#--- This was a test that try to read photos from a folder and remove the duplicated ones, but it didn't work. ---
 readFiles = ReadFiles()
 readFiles.setPath("D:\\Fotos\\Fotos\\Photos from 2022")
 #readFiles.setPath("D:\\Fotos\\Fotos\\Photos from 2021")
@@ -9,3 +11,5 @@ readFiles.readfiles()
 readFiles.getFileList()
 #readFiles.checkFileByFile()
 readFiles.checkFiles()
+"""
+
