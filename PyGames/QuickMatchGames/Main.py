@@ -12,17 +12,8 @@ pygame.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Random Shapes Game")
 clock = pygame.time.Clock()
-label_font = pygame.font.SysFont('Arial', 20)
 
-pressed_keys = []
-figure_color = []
-i = -1
-pressed = ''
 running = True
-finish = False
-shape_type = ""
-color = ""
-
 gameSelector = GameSelector()
 gameSelector.setScreen(screen)
 figureColor = FigureColor()

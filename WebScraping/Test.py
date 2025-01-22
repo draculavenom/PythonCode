@@ -64,7 +64,7 @@ checkedList = ["https://www.xataka.com.mx", "https://www.diariodemorelos.com", "
 notAvailableLinks = [] #456123: To find those are doesn't have any ip, I should use the windows command in shell: nslookup
 listItems = getLinks(checkedList[0])
 setItems = set(listItems)
-while len(checkedList) < 500:#len(listItems) > 0:
+while len(checkedList) < 5:#len(listItems) > 0:
     for li in listItems:
         if li not in checkedList:
             #"""
